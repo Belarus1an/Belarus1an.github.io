@@ -1,0 +1,60 @@
+body{
+    background: #263a44;
+}
+
+#content{
+    margin: 0 auto;
+    width: 300px;
+    height: 480px;
+    
+    position: relative;
+}
+
+#rocket{
+    width: 53px;
+    height: 85px;
+    background-image: url("image/rocket.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 10px;
+    left: 124px;
+}
+
+#moon{
+    width: 100px;
+    height: 100px;
+    background-image: url("image/moon.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+#text{
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    width: 60px;
+    height: 96px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 100px;
+    color: #d12525;
+}
+
+#button{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url("image/button.png");
+    background-size: cover;
+    background-position: center;
+    left: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+}
+
+#button:hover{
+    opacity: 1;
+}
